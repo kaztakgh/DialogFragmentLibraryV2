@@ -4,6 +4,10 @@ plugins {
     id "maven-publish"
 }
 
+repositories {
+    mavenCentral()
+}
+
 android {
     namespace "io.github.kaztakgh.dialogfragmentlibraryv2"
     compileSdk 34
